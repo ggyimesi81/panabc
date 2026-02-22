@@ -1,0 +1,14 @@
+name: pyenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.25.1
+  - pandas=2.2.3
+  - scipy=1.14.0
+  - scikit-learn=1.6.1
+  - gemmi=0.7.3
+  - jq=1.8.1
+  - bioconda::reduce=4.15
+prefix: ./pyenv
+

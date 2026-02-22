@@ -1,7 +1,7 @@
 Code and data related to the PanABC project.
 
 ## ABC Polyspecificity
-Code for the following publication can be found in the `polyspecificity-abc` folder:
+Code for the following publication can be found in the [`polyspecificity-abc`](polyspecificity-abc) folder:
 
 **A comprehensive protein structures- and machine learning-based workflow to identify polyspecific binding sites for drug development**
 
