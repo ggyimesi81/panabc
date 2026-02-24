@@ -18,6 +18,14 @@ conda env create -f environment.yaml -p ./pyenv
 
 3. Download and install MGLTools from https://ccsb.scripps.edu/mgltools/downloads/. The expected path is `/opt/mgltools_x86_64Linux2_1.5.7`. First untar the archive and move it into the destination path (you might have to use `sudo`). Then, `cd ` into that directory and use the `./install.sh` script in MGLTools without parameters to install into the current directory. This way, it will also install the `python2.7` binary into the `bin/` folder.
 
+4. You will need GNU make to run the calculations. Make sure that GNU make is installed, for example, on a Debian/Ubuntu machine:
+
+```bash
+sudo apt install make
+```
+
+The installation and usage have been tested and should work on Ubuntu 24.04 LTS.
+
 ## Usage
 
 ### PDB repository
